@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-size: large;
+    font-family:sans-serif
+}
+
+.heading {
+    color: rgb(24, 35, 251);
+    font-size: 50px;
+    text-align: center;
+}
+
+#menu {
+    background-color: blue;
+    width: auto;
+   /* height: 80px;*/
+    color: white;
+    padding: 20px 50px;
+    border-radius: 5px;
+    text-align: right;
+    
+}
+
+#hero {
+    background-color: #d2691e;
+    height: 400px;
+    width: auto;
+    border-radius: 5px;
+    margin-top: 5px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+#hero h1 {
+    color: beige; 
+    font-size: 60px;
+}
+
+#hero p {
+    color: beige;
+    font-size: 30px;
+    padding-top: 8px;
+}
+
+#hero a {
+    background-color: rgb(8, 61, 252);
+    text-decoration: none;
+    color: beige;
+    padding: 20px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+#hero a:hover {
+    background-color: rgb(32, 79, 247);
+}
+
+#menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    background-color:#d2691e;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+#menu a:hover {
+    background-color: rgb(229, 135, 68);
+}
+
+#about {
+    background-color: chocolate;
+    padding: 20px;
+}
+
+#about .list {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+#about p {
+    color: blue;
+    font-size: 30px;
+    text-align: center;
+}
+
+#about li {
+    font-size: 20px;
+    color: aliceblue;
+    text-align: center;
+    
+    
+}
+
+#courses {
+    margin-top: 30px;
+    text-align: center;
+
+}
+
+#courses h1 {
+    text-align: center;
+    color: blue;
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+#courses img {
+    height: 150px;
+    margin: 0 5px;
+    border-radius: 5px;
+    
+}
+
+
+#courses img:hover {
+    opacity: 0.8;
+}
